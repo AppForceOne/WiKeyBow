@@ -14,12 +14,12 @@ keyNames = ["key_1_in_row_4","key_2_in_row_4","key_3_in_row_4",
 layer1 = {
     "color": 0x00ff00,
     "key_1_in_row_1": {
-        "name":  "Lamp"
+        "name":  "Lamp",
         "color": 0x1eff1e,
         "colorOFF": 0xFF0000,
         "colorON": 0x00FF00,
         "state_req": {
-            "bash": "echo ON"
+            "bash": "echo ON",
             "url": "http://...",
             "method": "GET",
             "path": ["prop1", "prop2"],
@@ -57,12 +57,12 @@ layer1 = {
 layer2 = {
     "color": 0x0000ff,
     "key_1_in_row_1": {
-        "name":  "Lamp"
+        "name":  "Lamp",
         "color": 0x1eff1e,
         "colorOFF": 0xFF0000,
         "colorON": 0x00FF00,
         "state_req": {
-            "bash": "echo ON"
+            "bash": "echo ON",
             "url": "http://...",
             "method": "GET",
             "path": ["prop1", "prop2"],
@@ -95,7 +95,7 @@ layer2 = {
     "key_2_in_row_4": {},
     "key_3_in_row_4": {}
 }
-layers = [{}, layer1, layer2, layer_Esszimmer, layer_Arbeitszimmer]
+layers = [{}, layer1, layer2]
 layer_select = 1
 selection_layer = {}
 
